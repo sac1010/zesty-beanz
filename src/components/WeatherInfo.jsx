@@ -24,7 +24,7 @@ const WeatherInfo = ({data}) => {
         <div className=" rounded-3xl w-8/12 mx-auto my-8 p-5 bg-white font-semibold text-xl weather-box">
             {data?.weather[0]?.description}
         </div>
-    </div> : <div className="h-[50vh] font-semibold text-gray-500"> Search a city to find the weather</div>}
+    </div> : <div className="h-[45vh] my-5 font-semibold text-gray-500"> Search a city to find the weather</div>}
     </>
   );
 };
