@@ -33,11 +33,14 @@ A simple Weather App built with React and Tailwind CSS that allows users to ente
 
 3. Create .env file in root directory. Get the api key from openweathermap.
 
+```bash
     REACT_APP_API_KEY=your_openweathermap_api_key
+```
 
 
 4. Start the server
 
 ```bash
     npm start
-    ```
+```
+
